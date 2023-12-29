@@ -1,0 +1,19 @@
+{
+  "name": "issue-809-pw-hooks-reporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "pretest": "rm -rf ./allure-results ./report",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "allure-playwright": "^2.10.0"
+  }
+}
